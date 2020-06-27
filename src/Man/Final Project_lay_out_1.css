@@ -1,0 +1,138 @@
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#menu_top {
+    background: orange;
+    height: 40px;
+}
+#banner {
+    height: auto;
+    width: 1000px;
+}
+#main #left {
+    width: 700px;
+    background: pink;
+    float: left;
+    min-height: 400px;
+}
+#main #right {
+    width: 300px;
+    float: left;
+    min-height: 612px;
+}
+#footer {
+    background: black;
+    width: 1000px;
+    text-align: center;
+    height: 60px;
+    color: #FFF;
+    clear: left;
+    line-height: 60px;
+}
+#menu_top ul {
+    margin: 0px;
+    padding: 0px;
+}
+#menu_top ul li {
+    list-style: none;
+    float: left;
+}
+#menu_top ul li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    padding: 0px 20px 0px 20px;
+    border-right: 1px solid #f1f1f1;
+}
+#menu_top ul li a:active {
+    transform:translate(0,4px); box-shadow:0 4px gray;
+}
+#menu_top ul li img {
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 0px 0px 0px;
+    border-right: 1px solid #f1f1f1;
+    border: 1px;
+}
+#menu_top ul li a.active {
+    background: red;
+}
+#banner #ANH1 {
+    margin-top: 3px;
+    width: 345px;
+    height: 270px;
+}
+#banner #ANH2 {
+    margin-top: 3px;
+    width: 300px;
+    height: 270px;
+}
+#banner #ANH3 {
+    margin-top: 3px;
+    width: 345px;
+    height: 270px;
+}
+#main #left ul {
+    margin: 0px;
+    padding: 0px;
+}
+#main #left ul li {
+    list-style: none;
+    clear: left;
+    border-bottom: 2px solid #ccc;
+    float: left;
+    margin-bottom: 20px;
+}
+#main #left ul li img {
+    float: left;
+    margin-right: 10px;
+    height: 80px;
+    width: 100px;
+}
+#main #left ul li h3 {
+    font-size: 14px;
+    margin-top: 0px;
+}
+#main {
+    margin-top: 2px;
+}
+#main #right .menu_right ul {
+    margin: 0px;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+}
+#main #right .menu_right ul li {
+    list-style: none;
+}
+#main #right .menu_right ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 50px;
+    border-bottom: 1px solid black;
+    background: url(./CHECKICON.png) no-repeat;
+    text-indent: 35px;
+    font-size:14px;
+}
+#main #right .menu_right ul li a:hover {
+    color: orange;
+}
+#main #right .menu_right h2 {
+    background: #2a520b url(./MENUICON.png) no-repeat;
+    height: 65px;
+    margin-top: 0px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+}
+#main #right #anh_qc1 {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    height: 350px;
+    width: 300px;
+}
+

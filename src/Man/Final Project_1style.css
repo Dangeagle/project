@@ -1,0 +1,27 @@
+.logo_nhom {
+display: block; margin-left: auto; margin-right: auto;
+background-color: #e9d8f4;
+color: #58257b;
+text-align: center;
+padding-left: 500px; padding-right: 500px;
+padding-top: 10px; padding-bottom: 10px;
+}
+#flex-box-1 {
+    text-align: center;
+}
+#flex-box-2 {
+    text-align: center;
+    display: flex;
+}
+
+.key_word {
+height: 50px; width: 150px;
+background-color: orangered; border: none; color: white;
+padding: 15px 32px; text-align: center; text-decoration: none;
+display: inline-block; font-size: 16px; border-radius: 7px; box-shadow: 7px 7px red;
+display: block; margin-left: auto; margin-right: auto;
+}
+.key_word:active {
+    transform:translate(0,4px); box-shadow:0 4px gray;
+}
+
