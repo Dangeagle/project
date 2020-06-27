@@ -1,5 +1,86 @@
 <!DOCTYPE html>
+
 <head>
   <meta charshet="utf-8" />
   <link rel="stylesheet" href="./dip-nau.css">
 </head>
+
+<body>
+  <div class="cover">
+    <a href="C:\Users\DELL\Desktop\JS ( hoc them)\baitapcuoikhoa1\src\homethaifood.html">
+      <img class="logo" src="logo/logo_size.jpg" alt="TeachCook">
+    </a>
+    <div id="menu-top">
+      <nav>
+        <a href="./howcook.html" title="Hướng dẫn nấu ăn" class="active">Hướng dẫn nấu ăn</a> |
+        <a href="./diadiemanuong.html" title="địa điểm ăn uống" class="active">Địa điêm ăn uống</a> |
+        <a href="./dip-nau.html" title="Dịp nấu" class="active">Dịp nấu</a> |
+        <a href="" title="Nước uống ngon" class="active">Nước Uống Ngon</a> |
+      </nav>
+    </div>
+  </div>
+  <h2>
+    Đối với dịp nấu trong đầu năm mới <br>
+    Các món ăn mang ý nghĩa may mắn ở Thái Lan dịp năm mới
+  </h2>
+  <p>
+    Năm mới đến là lúc mọi người, mọi nhà cùng cầu mong mọi điều tốt lành sẽ đến. Đây cũng là dịp để những món ăn được
+    bày biện vừa để chúc mừng năm mới vừa mang ý nghĩa đem đến những điều may mắn cho gia chủ. Hãy cùng <strong>vé máy
+      bay giá rẻ của Airbooking đến Thái Lan </strong> vào dịp năm mới và thưởng thức những món ăn mang ý nghĩa may mắn
+    này nhé!
+  </p>
+  <p class="muc-luc">
+    <strong>
+      Cà ri đỏ nấu với vịt quay
+    </strong>
+  </p>
+  <p>
+    Người Thái quan niệm, đầu năm mới ăn món cà ri đỏ sẽ mang đến vận đỏ cho cả năm. Đây là món ăn truyền thống hấp dẫn
+    không thể thiếu trong các bữa cơm của người Thái. Đặc biệt, món cà ri đỏ nấu vịt quay này luôn nằm trong các mâm cơm
+    ngày Tết ở xứ sở chùa Vàng như một món ăn may mắn mang ý nghĩa tốt đẹp cho năm mới.
+  </p>
+  <img src="./imgdip-nau/ca-ri vit.jpg" alt="">
+  <p>
+    Đứng đầu trong Top 50 món ăn ngon nhất thế giới do kênh truyền hình CNN (Mỹ) bình chọn, món cà ri Thái có vị cay của
+    ớt đủ để làm điểm nhấn mà không làm chìm đi những hương vị khác, cùng vị béo và thơm nhẹ của nước cốt dừa và rất
+    nhiều gia vị khác. Đặc biệt, sự kết hợp với vịt quay khiến món cà ri Thái này trở nên lạ lẫm nhưng vô cùng lôi cuốn.
+    Chính vì vậy mà đây là món ăn được cư dân Thái và các thực khách ưa chuộng. Du khách hãy thử món ăn lôi cuốn này khi
+    tới xứ Thái du lịch nhé. <br>
+    <strong class="muc-luc">
+      Tom Yum Kung
+    </strong> <br>
+    Tom Yum Kung là một món ăn tuyệt vời đầy hấp dẫn của nền ẩm thực truyền thống của Thái Lan. Đây chính là món canh
+    may mắn được để giữa mâm cơm mang đến những bữa ăn ngon, đầy hương vị. Nó cũng được xem là món ăn “linh hồn” của bữa
+    cơm sẽ quyết định lên hương vị của các món khô còn lại. Tom Yum Koong chính là món súp tôm chua cay với dừa non mang
+    nét đặc trưng của ẩm thực Thái.
+  </p>
+  <img src="./imgdip-nau/Tom-Yum-Kung.jpg" alt="">
+  Những con tôm sú béo ngậy, búng mình vẩy nước được sốt cùng với dừa non tươi ngon tạo nên hương vị thật độc đáo và lạ
+  miệng, làm khơi dậy vị giác của thực khách ngay từ lần chạm ở đầu lưỡi.
+
+  Thật là hấp dẫn phải không nào? Qúy khách hãy nhanh tay đặt mua vé máy bay giá rẻ của Airbooking để được một lần đón
+  tết ở Thái Lan và thưởng thức những món ăn mang đầy ý nghĩa may mắn nhé. <br>
+  
+<ul id="list"> 
+    <li>Món ăn này thật là ngon</li>
+    <li>Trang Web này là hữu ít</li>
+  </ul>
+  <strong>
+    Mời bạn nhập comment
+  </strong> <br>
+  <input type="text" id="comment">
+  <button name="button" type="button">Send</button>
+  <script>
+    let input=document.getElementById('comment')
+    let ul=document.getElementById('list')
+    input.addEventListener('keypress', function(event){
+      
+      if(event.charCode == 13){
+        var li=document.createElement('li')
+        console.log(li);
+        li.innerHTML = event.target.value
+        ul.appendChild(li)
+      }
+    })
+  </script>
+</body>
