@@ -1,0 +1,68 @@
+.logo{
+  align-items: flex-start;
+}
+
+body{
+  display:flex;
+  background-color: pink;
+  justify-content: space-between; 
+  height:165px ;
+  animation-name:menu-top;
+  animation-duration: 1000000s;
+  margin: 0;
+  padding: 0;
+}
+@keyframes menu-top{
+  0%   {background-color: pink;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  75%  {background-color: purple;}
+  85%  {background-color: whitesmoke;}
+  100% {background-color: green;}
+}
+#main-div #left{
+  float: left;
+}
+#main-div #right{
+  float: right;
+  font-style:italic;
+  font-family: "Sofia";
+  font-size: 22px;
+  padding:40px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.noi-dung h2{
+  text-align: center;
+  font-size: 20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.noi-dung p{
+  font-size: 19.5px;
+}
+.noi-dung{
+  margin-left:30px;
+}
+strong{
+  font-size:18px
+}
+.noi-dung1{
+  margin-left: 50px;
+}
+nav a{
+  text-decoration: none;
+  font-size: 18px;
+}
+#main-div{
+  height:40px;
+  border-bottom-style: double;
+  border-bottom-width: 13px;
+  display:block;
+  background-color: whitesmoke;
+}
+

@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  padding:0;
+}
+.cover{
+  display:block;
+  background-color: whitesmoke;
+  text-decoration: none;
+}
+
+#menu-top{
+  background: white;
+  height:40px;
+  border-bottom-style: double;
+  border-bottom-width: 13px;
+}
+
+.container-1{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+.container-1 input#search{
+  width: 300px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.homepageThai{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  width: 450px;
+}
+#noi-dung{
+  font-size: 16px;
+  margin-right: 40px;
+  margin-left: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#listfood{
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left:10px;
+}
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: DarkSalmon;
+  color: white;
+}
+h2{
+  margin-left: 40px;
+}
+nav a{
+  text-decoration: none;
+  font-size: 18px;
+}
